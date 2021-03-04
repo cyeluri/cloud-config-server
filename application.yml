@@ -1,0 +1,9 @@
+# eureka client
+eureka:
+  client:
+    register-wtih-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://root.letsgeekus.com:8761/eureka/
+  instance:
+    hostname: localhost
